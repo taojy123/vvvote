@@ -25,7 +25,7 @@ def vote():
     PARAMS = {'id': 279, 'act_id': 1}
     vote_url = "http://api2.cyzone.cn/v1/vote/submit"
 
-    for i in range(int(n))
+    for i in range(int(n)):
         r = requests.post(vote_url, params=PARAMS)
         print r.text
 
