@@ -8,9 +8,6 @@ from flask import Flask, request
 import random
 import time
 
-BOT_URL = os.environ['BOT_URL']
-WEBHOOK_SECRET_KEY = os.environ['WEBHOOK_SECRET_KEY']
-
 
 app = Flask(__name__)
 
